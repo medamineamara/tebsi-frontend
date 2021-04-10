@@ -6,3 +6,8 @@ this app is using data from [tebsi-backend](https://github.com/medamineamara/teb
 most of the code used is from [mern-exercise-tracker-mongodb](https://github.com/beaucarnes/mern-exercise-tracker-mongodb).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## clone or download
+```terminal
+$ git clone https://github.com/medamineamara/tebsi-frontend.git
+$ npm i

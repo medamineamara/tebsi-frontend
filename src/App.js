@@ -46,7 +46,7 @@ class App extends Component {
         <div className="container-fluid">
           <Navbar />
           <br/>
-          <Route path='/' exact >
+          <Route path='/login'>
               <Login message={this.state.message} submitLogin={this.submitLogin} />
           </Route>
           <Route path="/recipes" >

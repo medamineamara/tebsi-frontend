@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const divStyle = {
@@ -21,8 +20,8 @@ const Home = () => {
                     <nav id="nav-bar" >
                         <ul id="nav-list">
                         <li id="link1"><a class="nav-link" href="/login">Admin</a></li>
-                        <li id="link2"><a class="nav-link" href="/recipes">Recipes</a></li>
-                        <li id="link3"><a class="nav-link" href="/ingredients">Ingredients</a></li>
+                        <li id="link2"><a class="nav-link" href="/recipesList">Recipes</a></li>
+                        <li id="link3"><a class="nav-link" href="/ingredients-search">Serach Per Ingredients</a></li>
                         </ul>
                     </nav>
                 </header>
@@ -41,7 +40,12 @@ const Home = () => {
                 </div>
                 <footer id="page-footer">
                     <p>This is a beta project</p>
-                    <p>Copyright 2021 github.com/medamineamara/tebsi-frontend</p>
+                    <p>Copyright 2021 </p>
+                    <a href="https://github.com/medamineamara/tebsi-frontend" 
+                        class="nav-link" target="blank">
+                       github repository
+                       </a>
+                    
                 </footer>
             </div>
     );

@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Home from './Home';
+import RecipesList from './components/recipesList.component';
+import IngredientsSearch from './components/ingridientsSearch.component';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,8 +21,14 @@ ReactDOM.render(
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/login">
+          <Route path="/login">
             <App />
+          </Route>
+          <Route path="/recipeslist">
+            <RecipesList />
+          </Route>
+          <Route path="/ingredients-search">
+            <IngredientsSearch />
           </Route>
       </Switch>
     </Router>
